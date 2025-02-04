@@ -16,9 +16,9 @@ import LayoutSettingsBlockComponent from "./LayoutSettingsBlock";
 import ImageElementComponent from "./ImageElement";
 import HeroBlockComponent from "./HeroBlock";
 import HeadingElementComponent from "./HeadingElement";
-import CTAElementComponent from "./CTAElement";
 import ContentRecsElementComponent from "./ContentRecsElement";
 import CarouselBlockComponent from "./CarouselBlock";
+import CTAElementComponent from "./CTAElement";
 import ButtonBlockComponent from "./ButtonBlock";
 import ArticleListElementComponent from "./ArticleListElement";
 import ArticleListElementLoader from "./ArticleListElement/loading";
@@ -90,16 +90,16 @@ export const ComponentFactory : ComponentTypeDictionary = [
         component: HeadingElementComponent 
     },
     { 
-        type: "CTAElement", 
-        component: CTAElementComponent 
-    },
-    { 
         type: "ContentRecsElement", 
         component: ContentRecsElementComponent 
     },
     { 
         type: "CarouselBlock", 
         component: CarouselBlockComponent 
+    },
+    { 
+        type: "CTAElement", 
+        component: CTAElementComponent 
     },
     { 
         type: "ButtonBlock", 
